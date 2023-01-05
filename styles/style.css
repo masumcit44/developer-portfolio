@@ -1,0 +1,125 @@
+/* google font add korlam */
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png"); /* ../ ekta level upre ashlo + multiple img use korsi */
+  background-repeat: no-repeat; /* for repeating issue */
+  background-position: right bottom, left; /* image take bolld- this works for image + right ar bottom first img er jonno , left second img er jonno */
+}
+
+/* nav > h2 tar ekta word er color dilam */
+.text-primary {
+  /* this our website's primary color */
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  /* this for nav button  */
+  height: 64px;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  border: 0;
+  padding: 19px 35px;
+}
+
+/* nav er size and weight thik korlam */
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+/* flex kore h2 and ul ta ase ore pasha pashi korlam arki  korlam */
+nav {
+  display: flex;
+  justify-content: space-between; /*aita korlam jate h2 ar ul 2 sideecholejai */
+  margin: 50px 200px;
+}
+
+/* ul er fota ta gayeb korlam */
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center; /* ul */
+}
+
+/* banner styles */
+.banner {
+  margin: 0 200px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-main-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.banner-sub-title {
+  font-weight: 600;
+  font-size: 30px;
+  border-bottom: 20px;
+}
+
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+/* main */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* main >about me section */
+
+.about {
+  margin-top: 130px; /* header and main er moddhe margin dilam*/
+  background: #fff8f3; /* aita hosse about section bg color*/
+  border-radius: 10px;
+  padding: 130px 150px; /* about section er padding */
+  text-align: center;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.section-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+}
+
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
