@@ -33,6 +33,21 @@ section {
   border: 0;
   padding: 19px 35px;
 }
+.btn-white{
+  height: 64px;
+  border-radius: 5px;
+  color: #fd6e0a;
+
+  
+  font-style: normal;
+  font-weight: 700;
+  border: 0;
+  padding: 19px 35px;
+}
+.banner-btn{
+  display: flex;
+  gap: 30px;
+}
 
 /* nav er size and weight thik korlam */
 .nav-title {
